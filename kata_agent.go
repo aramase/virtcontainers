@@ -42,8 +42,8 @@ var (
 	defaultKataID               = "charch0"
 	errorMissingProxy           = errors.New("Missing proxy pointer")
 	errorMissingOCISpec         = errors.New("Missing OCI specification")
-	kataHostSharedDir           = "/tmp/kata-containers/shared/pods/"
-	kataGuestSharedDir          = "/tmp/kata-containers/shared/pods/"
+	kataHostSharedDir           = "/run/kata-containers/shared/containers/"
+	kataGuestSharedDir          = "/run/kata-containers/shared/pods/"
 	mountGuest9pTag             = "kataShared"
 	type9pFs                    = "9p"
 	devPath                     = "/dev"
